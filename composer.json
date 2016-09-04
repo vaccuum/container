@@ -1,0 +1,27 @@
+{
+    "license": "MIT",
+    "name": "vaccuum/container",
+    "description": "Dependency injection container for vaccuum framework.",
+    "keywords": [
+        "vaccuum",
+        "framework",
+        "dependency",
+        "injection",
+        "container"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Łepczyński",
+            "email": "lepczynski.s@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vaccuum\\Container\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "rdlowrey/auryn": "^1.4"
+    }
+}
